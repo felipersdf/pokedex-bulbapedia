@@ -7,6 +7,7 @@ export const Colors = {
   accent: '#a0e7a0',     
   danger: '#f44336',     
   textPrimary: '#2e7d32',
+  textSecondary: '#a5d6a7',
   gray: '#9e9e9e',       
   white: '#fff',
 };
