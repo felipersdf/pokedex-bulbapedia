@@ -63,6 +63,14 @@ export default function Home() {
           }
         />
 
+
+        <TouchableOpacity
+          onPress={() => router.push("/(tabs)/favorites")}
+          style={styles.floatingButton}
+        >
+          <FontAwesome name="heart" size={16} color="#fff" style={{ marginRight: 8 }} />
+          <Text style={styles.buttonText}>Favoritos</Text>
+        </TouchableOpacity>
       </View>
     </>
   )
