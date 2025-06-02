@@ -64,11 +64,7 @@ export default function Home() {
           />
           {search.length > 0 && (
             <TouchableOpacity onPress={() => setSearch("")}>
-              <Ionicons
-                name="close-circle"
-                size={20}
-                color={Colors.textSecondary}
-              />
+              <FontAwesome name="times-circle" size={20} color={Colors.textSecondary} />
             </TouchableOpacity>
           )}
         </View>
@@ -77,7 +73,7 @@ export default function Home() {
           onPress={() => router.push("/(tabs)/favorites")}
           style={styles.floatingButton}
         >
-          <Ionicons name="heart" size={20} color="#fff" />
+          <FontAwesome name="heart" size={20} color="#fff" />
           <Text style={styles.buttonText}>Favoritos</Text>
         </TouchableOpacity>
 
