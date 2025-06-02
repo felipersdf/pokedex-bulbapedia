@@ -1,6 +1,6 @@
 # 📘 Pokédex Bulbapedia
 
-Uma aplicação mobile desenvolvida com **React Native** e **Expo CLI**, consumindo a **PokéAPI** para listar Pokémons da primeira geração. A Pokédex permite **buscar, visualizar detalhes e favoritar** seus Pokémons favoritos — com estilo inspirado nas cores de **Bulbasaur, Ivysaur e Venusaur** 🌿🔥
+Uma aplicação mobile desenvolvida com **React Native** e **Expo CLI**, consumindo a **PokéAPI** para listar Pokémons. A Pokédex permite **buscar, visualizar detalhes e favoritar** seus Pokémons favoritos — com estilo inspirado nas cores de **Bulbasaur, Ivysaur e Venusaur** 🌿🔥
 
 ---
 
